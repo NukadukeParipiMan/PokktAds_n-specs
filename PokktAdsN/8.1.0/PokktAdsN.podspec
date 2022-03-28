@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
     s.ios.vendored_frameworks = 'PokktSDK/PokktSDK.framework'
 
-    s.frameworks = "CoreData", "MediaPlayer", "Foundation", "UIKit", "CoreTelephony", "AdSupport", "CoreGraphics", "CoreMotion", "MessageUI", "EventKit", "EventKitUI", "CoreLocation", "AVFoundation", "WebKit"
+    s.frameworks = "CoreData", "MediaPlayer", "Foundation", "UIKit", "CoreTelephony", "AdSupport", "CoreGraphics", "CoreMotion", "MessageUI", "EventKit", "EventKitUI", "CoreLocation", "AVFoundation"
 
     s.libraries = "xml2.2", "c++", "xml2"
 
